@@ -8,4 +8,6 @@ This project aims to develop a deep learning model for plant recognition. The go
 - Implementing data augmentation techniques for better generalization
 
 ### Tech Stack
-- Python / Tensorflow
+- Python
+  - Tensorflow
+  - Flask
