@@ -4,18 +4,18 @@ There is not dataset specifically for the flowers in Romania so i am going to cr
 (there are a few for plant recognition and for a few flowers in UK and well known ones such as roses and irises, but for the sake of learning i will try and create my own)
 
 ## Classes (10)
-- Trandafir (Rosa) - Flower Dataset
-- Margareta (Leucanthemum vulgare) - Flower Dataset
-- Lalea (Tulipa) - Flower Dataset
-- Floarea-soarelui (Helianthus annuus) - Flower Dataset
-- Lavandă (Lavandula) - Web Scrapper 
-- Crin (Lilium) - 5 Flower Types
-- Mac (Papaver rhoeas) - Web Scrapper 
-- Iris (Iris) - Iris Dataset
-- Ghiocel (Galanthus nivalis) - Robflow
-- Păpădie (Taraxacum) - Flower Dataset
+- Trandafir (Rosa) - _Flower Dataset_
+- Margareta (Leucanthemum vulgare) - _Flower Dataset_
+- Lalea (Tulipa) - _Flower Dataset_
+- Floarea-soarelui (Helianthus annuus) - _Flower Dataset_
+- Lavandă (Lavandula) - _Web Scrapper_ 
+- Crin (Lilium) - _5 Flower Types_
+- Mac (Papaver rhoeas) - _Web Scrapper_ 
+- Iris (Iris) - _Iris Dataset_
+- Ghiocel (Galanthus nivalis) - _Robflow_
+- Păpădie (Taraxacum) - _Flower Dataset_
 
-In total there are 10 classes (types of flowers) and for every class i will collect around 120-230 images from different sources on the internet (i am not a great photographer so i wont be taking any photos)
+In total there are 10 classes (types of flowers) and for every class i will collect around 150-250 images from different sources on the internet (i am not a great photographer so i wont be taking any photos)
 
 For better results i plan to use: **Data Augmentation**
 
