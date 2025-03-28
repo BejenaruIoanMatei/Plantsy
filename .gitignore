@@ -13,6 +13,7 @@ __pycache__/
 app/train
 app/test
 app/backup
+app/data
 
 # Secret information
 .env
