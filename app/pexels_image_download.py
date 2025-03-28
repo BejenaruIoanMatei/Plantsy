@@ -5,7 +5,7 @@ PEXELS_API_KEY = 'your_api_key_here'
 SEARCH_QUERY = 'your_search_here'
 PER_PAGE = 80
 TOTAL_IMAGES = 500
-SAVE_FOLDER = 'whre_to_save'
+SAVE_FOLDER = 'where_to_save'
 
 if not os.path.exists(SAVE_FOLDER):
     os.makedirs(SAVE_FOLDER)
@@ -38,7 +38,7 @@ def download_images():
             image_url = photo['src']['original']
             image_id = photo['id']
             file_extension = image_url.split('.')[-1]
-            file_name = f"{SAVE_FOLDER}/whatever{image_id}.{file_extension}"
+            file_name = f"{SAVE_FOLDER}/whatever_{image_id}.{file_extension}"
             
             img_data = requests.get(image_url).content
             with open(file_name, 'wb') as handler:
