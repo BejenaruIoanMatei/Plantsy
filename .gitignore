@@ -12,6 +12,7 @@ __pycache__/
 # Ignora Datasetul
 app/train
 app/test
+app/backup
 
 # Secret information
 .env
